@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<title>Perfect Pet Search</title>
+
+	<!--===== CSS/BOOTSTRAP LINKS =====-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--===== GOOGLE FONTS =====-->
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<div class="container">
+		
+		<!--===== NAVBAR =====-->
+		<header>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 navbar">
+					<div class="row">
+						<div class="center">
+							<img src="images/logo.png" alt="logo">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<!--===== IMG SLIDER =====-->
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 img_slider">
+				<ol class="breadcrumb">
+					<li><a href="index.html">Home</a></li>
+					<li class="active">Dogs</li>
+				</ol>
+			</div>
+		</div>
+		
+		<!--===== SEARCH FILTER =====-->
+		<div class="row">
+			<div class="filter col-lg-3 col-md-3 col-sm-3 col-xs-12">
+				<h3>Filters</h3>
+				<form role="form">
+					<div class="form-group">
+				    	<label for="location">Location</label>
+				    	<input type="text" class="form-control" id="location" placeholder="EX: Chicago, IL or 60607">
+				    </div>
+				</form>
+
+				<form role="form">
+					<div class="form-group">
+				    	<label>Age</label>
+				    	<select class="form-control">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+						</select>
+				    </div>
+				</form>
+
+				<form role="form">
+					<div class="form-group">
+				    	<label>Breed</label>
+				    	<select class="form-control">
+							<option>Breed 1</option>
+							<option>Breed 2</option>
+							<option>Breed 3</option>
+							<option>Breed 4</option>
+							<option>Breed 5</option>
+							<option>Breed 6</option>
+							<option>Breed 7</option>
+							<option>Breed 8</option>
+							<option>Breed 9</option>
+							<option>Breed 10</option>
+						</select>
+				    </div>
+				</form>
+				
+				<label>Gender</label>
+				<br>
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+						<label class="radio-inline">
+							<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Male" checked> Male
+						</label>
+						<label class="radio-inline">
+							<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Female"> Female
+						</label>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+				</div>
+
+				<button type="button" class="btn btn-primary btn-lg btn-block" id="filter_btn">Filtered Search</button>
+			</div>
+	 
+			<!--===== SELECTION =====-->
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<ul>
+					<li class="pet">
+						<a href="bio.html">
+							<div class="row">
+								<img src="images/lab.jpg" alt="pet" class="img-thumbnail profile_pic">
+							</div>
+						</a>	
+					</li>
+					<li class="pet">
+						<a href="bio.html">
+							<div class="row">
+								<img src="images/pit.jpg" alt="pet" class="img-thumbnail profile_pic">
+							</div>
+						</a>
+					</li>
+					<li class="pet">
+						<a href="bio.html">
+							<div class="row">
+								<img src="images/shep.jpg" alt="pet" class="img-thumbnail profile_pic">
+							</div>
+						</a>		
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<ul>
+					<li class="pet">
+						<a href="bio.html">
+							<div class="row">
+								<img src="images/lab.jpg" alt="pet" class="img-thumbnail profile_pic">
+							</div>
+						</a>
+					</li>
+					<li class="pet">
+						<a href="bio.html">
+							<div class="row">
+								<img src="images/pit.jpg" alt="pet" class="img-thumbnail profile_pic">
+							</div>	
+						</a>	
+					</li>
+					<li class="pet">
+						<a href="bio.html">
+							<div class="row">
+								<img src="images/shep.jpg" alt="pet" class="img-thumbnail profile_pic">
+							</div>	
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--===== FOOTER =====-->
+		<footer>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 navbar">
+					<div class="row">
+						<div class="col-lg-4"></div>
+						<div class="col-lg-4 center">
+							<img src="images/logo.png" alt="logo" class="footer_logo">
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>	
+
+	</div>
+
+	<!--============= Javascript =============-->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="js/bootstrap-slider.jss"></script>
+		<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+

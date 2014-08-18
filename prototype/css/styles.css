@@ -1,0 +1,167 @@
+/*========== GLOBAL ==========*/
+.container {
+
+}
+
+/*========== INDEX ==========*/
+.navbar {
+	background-color: #FBB040;
+	height: 65px;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+img {
+	position: relative;
+	left: 2%;
+	max-width: 17.12328767%;
+	min-width: 150px;
+	margin: auto;
+}
+.tagline {
+	height: 200px;
+}
+.tagline {
+	margin-top: 8%;
+	color: #21A4CE;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+.search {
+	margin-bottom: 3.5%;
+}
+.animals {
+	height: 100px;
+	text-align: center;
+	margin: 1% .5% 0 .5%;
+	background-color: #888;
+	border-radius: 4px;
+}
+.animals:hover {
+	cursor: pointer;
+}
+.animals p {
+	line-height: 100px;
+	vertical-align: middle;
+}
+footer {
+	background-color: #FBB040;
+	height: 65px;
+	margin-top: 3%;
+}
+img.footer_logo {
+	display: block;
+	margin: auto;
+}
+
+/*========== RESULTS ==========*/
+.img_slider {
+	height: 13em;
+	background-color: #ddd;	
+}
+.filter {
+	margin-top: 2%;
+	border-radius: 5px;
+	height: 500px;
+	background-color: #ddd;
+	padding: 5px 15px 5px 15px;
+}
+#filter_btn {
+	margin-top: 10%;
+}
+button #filter_btn {
+	background-color: #FBB040;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+.pet {
+	margin-top: 5%;
+	margin-left: 2%;
+	height: 153px;
+	border-radius: 8px;
+	background-color: rgba(71, 221, 86, .8);
+}
+.pet:hover {
+	cursor: pointer;
+}
+.profile_pic {
+	border-radius: 5px;
+	height: 140px;
+	position: relative;
+	left: 21px;
+	top: 5px;
+}
+.profile_pic img {
+	width: 75.67567568%;
+}
+.col-lg-4.col-md-4.col-sm-4.col-xs-12 {
+	padding: 2.5px;
+}
+
+/*========== BIO ==========*/
+.info {
+	margin-top: 10px;
+	height: 275px;
+	background-color: rgba(71, 221, 86, .8);
+}
+.text1 {
+	height: 130px;
+}
+.text2 {
+	height: 130px;
+}
+.list1 {
+	text-align: right;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	color: white;
+}
+.list1 {
+	text-align: right;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	color: white;
+}
+.list2 {
+	text-align: left;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	color: white;
+}
+.ad {
+	margin-top: 10px;
+	height: 275px;
+	background-color: #ddd;
+}
+.ad p {
+	font-size: 1.1em;
+	color: black;
+	margin-top: .4em;
+	text-align: center;
+}
+.story {
+	margin-top: .5%;
+	margin-left: 5px;
+	height: 555px;
+	background-color: rgba(71, 221, 86, .8);
+}
+h3 {
+	margin-top: 0;
+	text-align: center;
+	color: #fff;
+	font-family: 'Lobster', cursive;
+	font-size: 2.6em;
+	text-decoration: underline;
+}
+p {
+	text-indent: 20px;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	margin: 15px;
+}
+.loc p {
+	font-size: 1.2em;
+	text-align: center;
+}
